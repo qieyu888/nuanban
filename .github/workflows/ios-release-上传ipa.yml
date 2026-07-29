@@ -25,7 +25,7 @@ jobs:
             # 假设 .ipa 文件被直接解压到当前工作目录。
             unzip temp_merged_archive.zip
             
-            # 清理临时合并的 zip 文件
+            # 清理临时合并的 zip 文件 
             rm temp_merged_archive.zip
             echo "分割文件处理完毕。"
           else
